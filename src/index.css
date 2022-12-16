@@ -6,3 +6,8 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+/* FIXME: DEV STYLES */
+body {
+  background-color: #725f5a;
+}

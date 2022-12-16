@@ -1,0 +1,38 @@
+.container {
+    padding: 8px 0;
+    background-color: #9ab270;
+    height: 800px;
+}
+
+.item {
+    margin-bottom: 5px;
+    background-color: #eaeaea;
+    padding: 10px 20px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    column-gap: 15px;
+}
+
+.item:last-child {
+    margin-bottom: 0;
+}
+
+.name {
+    flex: 0 0 50%;
+    word-break: break-all;
+}
+
+.status {
+    width: 70px;
+}
+
+.type {
+    width: 80px;
+    word-break: break-word;
+}
+
+.size {
+    width: 65px;
+}
